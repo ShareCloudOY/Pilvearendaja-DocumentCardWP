@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "document-card-wp",
+    "libraryId": "79c125cb-0d05-420a-8c36-c664db6b5d12",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "DocumentCardWP",
+    "solutionShortDescription": "DocumentCardWP description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

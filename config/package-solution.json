@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "document-card-wp-client-side-solution",
+    "id": "79c125cb-0d05-420a-8c36-c664db6b5d12",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "DocumentCardWP description"
+      },
+      "longDescription": {
+        "default": "DocumentCardWP description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "document-card-wp Feature",
+        "description": "The feature that activates elements of the document-card-wp solution.",
+        "id": "950258ae-86b8-4b06-8064-d0926b576515",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/document-card-wp.sppkg"
+  }
+}

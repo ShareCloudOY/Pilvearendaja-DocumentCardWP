@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "document-card-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/documentCardWp/DocumentCardWpWebPart.js",
+          "manifest": "./src/webparts/documentCardWp/DocumentCardWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DocumentCardWpWebPartStrings": "lib/webparts/documentCardWp/loc/{locale}.js"
+  }
+}
